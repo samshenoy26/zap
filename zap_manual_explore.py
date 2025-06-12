@@ -3,7 +3,7 @@ import time
 
 #we are defining the zap_url and api_key below
 zap_url = 'http://localhost:8082/'
-api_key = 'pnfcli12rkp7n28hffl1q0v75e'
+api_key = ''
 
 alerts_url = f'{zap_url}JSON/spider/action/scan/?apikey={api_key}&url=https%3A%2F%2Fginandjuice.shop%2F'
 response = requests.get(alerts_url)
