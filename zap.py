@@ -2,7 +2,7 @@ import requests
 
 #we are defining the zap_url and api_key below
 zap_url = 'http://localhost:8082/'
-api_key = 'pnfcli12rkp7n28hffl1q0v75e'
+api_key = ''
 
 #scan_url = f'{zap_url}/JSON/ascan/action/scan/?apikey={api_key}&url=https://ginandjuice.shop/'
 #response = requests.get(scan_url)
